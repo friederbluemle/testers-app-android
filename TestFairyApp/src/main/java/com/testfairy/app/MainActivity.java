@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
 		public UpdateTestFairyAccount(String url) {
 			this.url = url;
 		}
-			
+
 		@Override
 		public void run() {
 			try {

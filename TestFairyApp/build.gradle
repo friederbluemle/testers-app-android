@@ -6,7 +6,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
-	    classpath 'com.testfairy.plugins.gradle:testfairy:1.+'
+        classpath 'com.testfairy.plugins.gradle:testfairy:1.+'
     }
 }
 
@@ -50,9 +50,9 @@ android {
 
     testfairyConfig {
         apiKey "9dc08e8d93efd8622178f0c61faeaf112fbafcb4"
-	recordOnBackground false
-	autoUpdate true
-	maxDuration "unlimited"
+        recordOnBackground false
+        autoUpdate true
+        maxDuration "unlimited"
         //uploadProguardMapping true
     }
 
@@ -61,4 +61,3 @@ android {
         abortOnError false
     }
 }
-
